@@ -1,0 +1,9 @@
+<h1>{{Summary_of_Results.Monthly_Payment}}</h1>
+<h1>{{Summary_of_Results.Number_of_Payments}}</h1>
+<h1>{{Summary_of_Results.Rate_Period}}</h1>
+<h1>{{Summary_of_Results.Total_Payment}}</h1>
+<h1>{{Summary_of_Results.Total_Interest}}</h1>
+
+{%for i in Yearly_Amortization%}
+  <h1> {{i.5}} {{i.4}}  {{i.0}} {{i.1}} {{i.2}} {{i.3}} </h1>
+{%endfor%}
